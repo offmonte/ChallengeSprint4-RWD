@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Seguro</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/addBike.css">
+</head>
+<body>
+    <header>
+        <img src="./images/Chroma_Logo.png" height="200px" width="200" alt="Chroma Cycle Logo" class="logo">
+        <nav class="navegar">
+            <ul class="listaHeader">
+                <li class="itemHeader"><a href="./index.html">Seguros</a></li>
+                <li class="itemHeader"><a href="./quemSomos.html">Sobre nós</a></li>
+                <li class="itemHeader"><a href="./suporte.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <container class="telaAdicionarSeguro">
+        <h1>Adicionando seguro</h1>
+        <div class="adicionarSeguro">
+            <h2> Precisamos de algumas informações da sua bike</h2>
+            <div class="gridding">
+
+                <div class="part1">
+                    <input type="modelo" id="modelo" name="modelo" placeholder=" Modelo" required>
+                    <input type="serie" id="serie" name="serie" placeholder=" Número de série" required>
+                    <input type="ano" id="ano" name="ano" placeholder=" Ano da bike" required>
+                </div>
+
+                <div class="part2">
+                    <input type="acessorio" id="acessorio" name="acessorio" placeholder=" Acessórios (se possuir)">
+                    <input type="valor" id="valor" name="valor" placeholder=" Valor em reais (R$)" required>
+                    <button type="submit">Contratar seguro</button>
+                </div>
+
+            </div>
+        </div>
+    </container>
+
+    <footer>
+        <nav class="linksRapidos">
+            <p>Links rápidos:</p>
+            <ul class="links">
+                <li class="link"><a href="./suporte.html">Suporte</a></li>
+                <li class="link"><a href="./quemSomos.html">Quem somos</a></li>
+            </ul>
+        </nav>
+
+        <div class="shield">
+            <ul class="grupo">
+                <li class="integrante">Marcos Henrique Garrido da Silva</li>
+                <li class="integrante">Izabelly de Oliveira Menezes</li>
+                <li class="integrante">João Vito Santiago da Silva</li>
+                <li class="integrante">Gustavo Imparto Chaves</li>
+                <li class="integrante">Lucas Monte Verde</li>
+            </ul>
+            <img src="./images/Chroma_Shield.png" height="160px" width="160px">
+        </div>
+    </footer>
+</body>
+</html>

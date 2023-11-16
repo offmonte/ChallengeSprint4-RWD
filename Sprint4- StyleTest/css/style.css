@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap%27');
+
+body *, body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    font-family: 'Inter';
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 170px;
+    width: 100%;
+    background-color: #4095c7;
+    align-items: center;
+    list-style-type: none;
+    font-size: 17px;
+}
+
+
+.listaHeader {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+.listaHeader a{
+    color: white;
+}
+  
+.itemHeader {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+.login a{
+    font-weight: 400;
+    margin-right: 10px; 
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    background-color: #5DA3CA;
+    color: white;
+}
+
+/* FOOTER */
+
+footer {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.shield{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.grupo {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    margin-right: 8px;
+    font-style: italic;
+}
+
+.integrante {
+    margin: 3px;
+}
+
+.linksRapidos {
+    margin-left: 40px;
+    margin-top: 0;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+
+.links{
+    margin-top: 20px;
+}
+
+.link a{
+    margin: 8px;
+    color:white;
+    font-size: 18px;
+    text-decoration: underline;
+   
+}
+
+/*Reponsivdade para tablet*/
+@media screen and (max-width: 1024px){
+    header {
+        height: 250px;
+        width: 100%;
+        font-size: 17px;
+        padding-right: 40px;
+    }
+
+    .itemHeader {
+        margin: 15px;
+    }
+    
+    .logo {    
+        margin-left: 100px;
+        margin-right: 50px;
+    }
+  
+}
+
+
+/*Reponsivdade para celular*/
+@media screen and (max-width: 600px) {
+    header {
+        height: 250px;
+        width: 100%;
+        background-color: #4095c7;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .logo {    
+        margin-left: auto;
+        margin-right: auto;
+        width: 80px;
+        height: 80px;
+    }
+
+
+    .grupo {
+        color: white;
+        font-size: 15px;
+        font-weight: 100;
+        margin-right: 15px;
+        font-style: italic;
+    }
+    footer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        align-items: center;
+        padding: 30px;
+    }
+    .integrante{
+        
+        margin: 15px;
+    }
+    .linksRapidos{
+        margin-bottom: 50px;
+    }
+
+   
+
+
+
+}

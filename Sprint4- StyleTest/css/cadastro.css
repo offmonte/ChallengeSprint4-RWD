@@ -1,0 +1,149 @@
+body {
+    background-color: #234050;
+}
+
+header{
+    box-shadow: 5px 5px 12px -5px rgba(0, 0, 0, 0.5)
+}
+
+.telaCad {
+    width: 1080px;
+    height: 640px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding: 50px;
+    border-radius: 60px;
+    box-shadow: 10px 0 15px -5px rgba(0, 0, 0, 0.5), -10px 0 15px -5px rgba(0, 0, 0, 0.5);
+    background-color: #4095c7;
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}
+
+input {
+    width: 300px;
+    height: 60px;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: #8cc3e0;
+    border: 0px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5), inset -5px -5px 10px rgba(0, 0, 0, 0.5);
+    margin: 8px;
+    margin-top: 50px;
+}
+.gridding {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.telaCad img{
+    margin-left: 40px;
+}
+.telaCad h1{
+    margin-bottom: 0px;
+}
+
+.buttom{
+    width: 180px;
+    height: 60px;
+    border-radius: 40px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: #0f75ac;
+    border: 0;
+    box-shadow: 5px 5px 12px -5px rgba(0, 0, 0, 0.5), -5px -5px 12px -5px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    color: white;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.efetuarCad a{
+    font-size: 14px;
+    margin-left: 20px;
+    color: white;
+    font-weight: lighter;
+}
+.telaCad h1{
+    margin-left: 20px;
+}
+.endereco {
+    width: 500px;
+}
+.part3 {
+    margin-left: 10px;
+}
+.menores {
+    width: 240px;
+}
+
+/*Reponsivdade para tablet*/
+@media screen and (max-width: 1024px) {
+    .telaCad {
+        width: 95%;
+        height: 100%;
+        grid-template-columns: 1fr
+    }
+    .gridding {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .telaCad {
+        padding: 20px;
+    }
+    .telaCad img{
+        width: 100px;
+        height: 100px;
+    }
+    .telaCad a{
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    input {
+        width: 100%;
+    }
+    .menores {
+        width: 340px;
+    }
+
+}
+
+
+
+/*Reponsivdade para celular*/
+@media screen and (max-width: 900px) {
+    .telaCad {
+        padding: auto;
+    }
+    .gridding {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .telaCad img{
+        width: 100px;
+        height: 100px;
+    }
+    .telaCad a{
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    input {
+        width: 100%;
+    }
+    .menores {
+        width: 100%;
+    }
+    .endereco {
+        width: 100%;
+    }
+
+}
